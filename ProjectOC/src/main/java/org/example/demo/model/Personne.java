@@ -6,7 +6,6 @@ public class Personne {
 	private short age;
 	private String city;
 	private String country;
-	private String langue;
 	
 	public Personne() {
 	}
@@ -54,13 +53,5 @@ public class Personne {
 		this.country = country;
 	}
 
-	public String getLangue() {
-		return langue;
-	}
-
-	public void setLangue(String langue) {
-		this.langue = langue;
-	}
-	
 	
 }
