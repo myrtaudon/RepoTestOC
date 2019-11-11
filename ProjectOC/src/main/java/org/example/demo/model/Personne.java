@@ -5,6 +5,8 @@ public class Personne {
 	private String name;
 	private short age;
 	private String city;
+	private String country;
+	private String langue;
 	
 	public Personne() {
 	}
@@ -42,6 +44,22 @@ public class Personne {
 
 	public void setCity(String city) {
 		this.city = city;
+	}
+
+	public String getCountry() {
+		return country;
+	}
+
+	public void setCountry(String country) {
+		this.country = country;
+	}
+
+	public String getLangue() {
+		return langue;
+	}
+
+	public void setLangue(String langue) {
+		this.langue = langue;
 	}
 	
 	
